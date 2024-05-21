@@ -1,0 +1,9 @@
+CREATE DATABASE parking;
+
+CREATE TABLE cars (
+	plate VARCHAR(6) PRIMARY KEY,
+	model VARCHAR(30),
+	vehicle_type VARCHAR(30),
+	user_id INT
+)
+
